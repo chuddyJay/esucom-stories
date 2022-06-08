@@ -1,0 +1,115 @@
+.signup-container{
+  display: grid;
+  grid-template-rows: auto 120px;
+  width:100%;
+  height:80vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-form{
+  width:500px;
+  height:500px;
+  border:1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-form{
+  width:80%;
+  height:80%;
+  border:1px solid grey;
+
+}
+
+.sign-in-form h2{
+  display: block;
+  width:100%;
+  height:80px;
+  border:1px solid grey;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.sign-in-form div{
+  width:100%;
+  height:80px;
+  border:1px solid grey;
+  margin:10px 0 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center ;
+}
+
+.sign-in-form div label{
+  font-size:1.5rem;
+  display: block;
+  width:100px;
+  /* background: Red; */
+}
+
+.sign-in-form div input{
+  width:70%;
+  height:50px;
+  font-size:1.5rem;
+}
+
+.submit-div{
+  width:100%;
+  height:10px;!important
+  background: red;
+  text-align: center;
+}
+
+.submit-div input{
+  width:100%;!important
+
+}
+
+span{
+  color:red;
+}
+
+span a{
+  color:red;
+  text-decoration: none;
+}
+
+span a:focus{
+  text-decoration: underline;
+}
+
+.error-message-container{
+  width:100%;
+  height:100px;
+  background-color:rgba(225, 71, 71, 0.5);
+  display:none;
+  border:1px solid black;
+}
+
+.error-message{
+  width:500px;
+  height:10px;
+  font-size:15px;
+  padding-left:10px;
+  margin: 0 auto;
+  font-family:arial;
+}
+
+.success-message-container{
+  width:100%;
+  height:100px;
+  background-color:rgba(94, 186, 125, 0.5);
+  display:none;
+  border:1px solid black;
+}
+
+.success-message{
+  width:500px;
+  height:10px;
+  font-size:15px;
+  padding-left:10px;
+  margin: 0 auto;
+  font-family:arial;
+}
